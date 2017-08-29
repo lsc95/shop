@@ -1,0 +1,37 @@
+package com.coderli.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.coderli.mapper.TbItemMapper;
+import com.coderli.pojo.TbItem;
+import com.coderli.service.ItemService;
+
+/**
+ * 商品管理service
+ * @author lishichun
+ *
+ */
+@Service
+public class ItemServiceImpl implements ItemService{
+
+	@Autowired
+	private TbItemMapper itemMapper;
+	
+	public TbItem getItemById(long itemId) {
+		//根据主键查询
+//		TbItem tbItem = itemMapper.selectByPrimaryKey(itemId);
+//		return tbItem;
+		//设置查询条件
+		TbItemExample example = new TbItemExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andIdEqualTo(itemId);
+//		//执行查询
+		List<TbItem> list = itemMapper.selectByExample(example);
+		if(list!=null&&list.size()>0){
+			return list.get(0);
+		}
+		return null;
+	}
+
+}

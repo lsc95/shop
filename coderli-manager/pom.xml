@@ -20,7 +20,6 @@
 		<module>coderli-manager-dao</module>
 		<module>coderli-manager-interface</module>
 		<module>coderli-manager-service</module>
-		<module>coderli-manager-web</module>
 	</modules>
 	<!-- 配置tomcat插件 -->
 	<build>

@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;Servers&apos;" deleteContents="true" description="Delete resource &apos;Servers&apos;" element1="/Servers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1503920206826"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Servers&apos;" deleteContents="true" description="Delete resource &apos;Servers&apos;" element1="/Servers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1503920206826"/>&#x0A;<refactoring comment="Delete resource &apos;coderli-manager-web&apos;" deleteContents="false" description="Delete resource &apos;coderli-manager-web&apos;" element1="/coderli-manager-web" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1503966085196"/>
 </session>
