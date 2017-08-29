@@ -1,0 +1,17 @@
+package com.coderli.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.coderli.service.ItemService;
+
+/**
+ * 商品管理Controller
+ * @author lishichun
+ *
+ */
+@Controller
+public class ItemController {
+	@Autowired
+	private ItemService itemService;
+}

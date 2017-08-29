@@ -1,0 +1,11 @@
+com\coderli\mapper\TbItemMapper.class
+com\coderli\mapper\TbContentMapper.class
+com\coderli\mapper\TbOrderItemMapper.class
+com\coderli\mapper\TbItemCatMapper.class
+com\coderli\mapper\TbUserMapper.class
+com\coderli\mapper\TbOrderShippingMapper.class
+com\coderli\mapper\TbOrderMapper.class
+com\coderli\mapper\TbItemDescMapper.class
+com\coderli\mapper\TbContentCategoryMapper.class
+com\coderli\mapper\TbItemParamMapper.class
+com\coderli\mapper\TbItemParamItemMapper.class
