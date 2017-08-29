@@ -1,8 +1,9 @@
 package com.coderli.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TbItemDesc {
+public class TbItemDesc implements Serializable{
     private Long itemId;
 
     private Date created;
