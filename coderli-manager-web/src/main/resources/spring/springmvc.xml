@@ -18,10 +18,12 @@
 		<property name="prefix" value="/WEB-INF/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
-
+	<!-- 配置资源映射 -->
+	<mvc:resources location="/css/" mapping="/css/**"></mvc:resources>	
+	<mvc:resources location="/js/" mapping="/js/**"></mvc:resources>	
 	<!-- 引用dubbo服务 -->
 	<dubbo:application name="coderli-manager-web" />
-	<dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" />
-	<dubbo:reference interface="com.coderli.service.ItemService"
-		id="itemService" />
+	<dubbo:registry protocol="zookeeper" address="192.168.56.243:2181,127.0.0.1:2181" />
+	<dubbo:reference interface="com.coderli.service.ItemService" id="itemService" />
+		
 </beans>

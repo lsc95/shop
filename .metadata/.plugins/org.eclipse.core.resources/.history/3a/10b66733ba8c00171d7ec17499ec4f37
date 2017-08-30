@@ -1,0 +1,18 @@
+package com.coderli.pagehelper;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.github.pagehelper.PageHelper;
+
+public class PageHelperTest {
+	
+	public void testPageHelper()throws Exception{
+		ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:spring/applicationContext.xml");
+		//执行sql语句之前设置分页信息,只对下面一条sql有效
+		PageHelper.startPage(1, 1);
+		//执行查询
+		//取分页信息，PageInfo 
+		
+	}
+}

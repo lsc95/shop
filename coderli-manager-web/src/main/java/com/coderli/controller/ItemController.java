@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.coderli.common.pojo.EasyUIDataGridResult;
 import com.coderli.pojo.TbItem;
 import com.coderli.service.ItemService;
 
@@ -27,9 +28,12 @@ public class ItemController {
 		System.out.println(tbItem);
 		return tbItem;
 	}
-	@RequestMapping("/item/test")
+
+	@RequestMapping("/item/list")
 	@ResponseBody
-	public String test(){
-		return "haha";
+	public EasyUIDataGridResult getItemList(Integer page,Integer rows){
+		//调用查询商品列表
+		EasyUIDataGridResult result = itemService.getItemList(page, rows);
+		return result;
 	}
 }
