@@ -1,0 +1,20 @@
+package com.coderli.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.coderli.interface.ItemCatService;
+
+
+/**
+ * 商品类管理
+ *
+ */
+@Controller
+public class ItemCatController {
+	@Autowired
+	private ItemCatService itemCatService;
+	
+	
+	
+}

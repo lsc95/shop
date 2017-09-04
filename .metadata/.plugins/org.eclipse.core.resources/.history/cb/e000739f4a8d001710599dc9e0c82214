@@ -1,0 +1,5 @@
+package com.coderli.service;
+
+public interface ItemCatService {
+
+}

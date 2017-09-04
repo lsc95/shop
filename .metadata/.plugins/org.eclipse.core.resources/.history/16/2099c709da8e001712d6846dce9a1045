@@ -1,0 +1,7 @@
+package com.coderli.fast;
+
+public class FastDfsTest {
+	public void testUpload()throws Exception{
+		
+	}
+}

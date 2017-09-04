@@ -1,0 +1,13 @@
+package com.coderli.fast;
+
+public class FastDfsTest {
+	public void testUpload()throws Exception{
+		//创建一个配置文件，配置tracker服务器地址
+		//使用全局对象加载配置文件
+		//创建一个TrackerClient对象
+		//通过TrackerClient获取TrackerServer对象
+		//创建一个StorageServer的引用，可以是null
+		//创建一个StorageClient,参数需要TrackerServer和StorageServer
+		//使用StorageClient上传文件。
+	}
+}

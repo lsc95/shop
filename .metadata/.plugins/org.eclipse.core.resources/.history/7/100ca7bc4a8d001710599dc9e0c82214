@@ -1,0 +1,7 @@
+package com.coderli.service.impl;
+
+import com.coderli.service.ItemCatService;
+
+public class ItemCatServiceImpl implements ItemCatService{
+
+}

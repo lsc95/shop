@@ -1,0 +1,13 @@
+package com.coderli.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 商品类管理
+ * @author lishichun
+ *
+ */
+@Controller
+public class ItemCatController {
+
+}

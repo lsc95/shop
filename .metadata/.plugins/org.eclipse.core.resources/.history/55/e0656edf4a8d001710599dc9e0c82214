@@ -1,0 +1,17 @@
+package com.coderli.service.impl;
+
+import java.util.List;
+import org.springframework.stereotype.Service;
+import com.coderli.common.pojo.EasyUITreeNode;
+import com.coderli.service.ItemCatService;
+
+@Service
+public class ItemCatServiceImpl implements ItemCatService{
+
+	@Override
+	public List<EasyUITreeNode> getItemCatList(long parentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
